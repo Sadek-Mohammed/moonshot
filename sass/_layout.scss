@@ -9,6 +9,10 @@
 .header {
   display: flex;
   justify-content: space-between;
+  @media screen and (max-width: $bp-smallest) {
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 .primary {
   background-image: url("../img/photo-bg.jpg");
@@ -18,9 +22,18 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  @media screen and (max-width: $bp-medium) {
+    height: 40rem;
+  }
+  @media screen and (max-width: $bp-medium) {
+    height: 35rem;
+  }
 }
 .about-us {
   width: 110rem;
+  @media screen and (max-width: $bp-largest) {
+    width: 100%;
+  }
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,7 +52,20 @@
     flex-direction: column;
     align-items: center;
     padding: 0 2rem;
-    width: 110rem;
+    max-width: 110rem;
+    @media screen and (max-width: $bp-largest) {
+      padding: 0;
+      width: 80rem;
+    }
+    @media screen and (max-width: $bp-medium) {
+      width: 60rem;
+    }
+    @media screen and (max-width: $bp-small) {
+      width: 40rem;
+    }
+    @media screen and (max-width: $bp-small) {
+      width: 30rem;
+    }
   }
 }
 .support-us {
