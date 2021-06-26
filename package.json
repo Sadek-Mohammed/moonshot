@@ -1,23 +1,16 @@
 {
-  "name": "trillo",
+  "name": "BrailleBrains",
   "version": "1.0.0",
-  "description": "Trillo",
+  "description": "A website for Braille Brains team, which is participating in moonshot pirates comprtition. We aim to help people with deaf-blindness syndrome.",
   "main": "index.js",
   "scripts": {
     "watch:sass": "node-sass sass/main.scss css/style.css -w",
-    "start": "npm-run-all --parallel watch:sass",
-    "compile:sass": "node-sass sass/main.scss css/style.comp.css",
-    "prefix:css": "postcss --use autoprefixer -b css/style.comp.css -o css/style.prefix.css",
-    "compress:css": "node-sass css/style.prefix.css css/style.css --output-style compressed",
-    "build:css": "npm-run-all compile:sass prefix:css compress:css"
+    "start": "npm-run-all --parallel watch:sass"
   },
-  "author": "Jonas",
-  "license": "ISC",
+  "author": "Sadek Mohammed",
+  "license": "GNU",
   "devDependencies": {
-    "autoprefixer": "^7.1.4",
     "node-sass": "^4.5.3",
-    "npm-run-all": "^4.1.1",
-    "postcss-cli": "^4.1.1"
-  },
-  "dependencies": {}
+    "npm-run-all": "^4.1.1"
+  }
 }
