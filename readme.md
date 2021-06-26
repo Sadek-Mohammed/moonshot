@@ -6,7 +6,7 @@ This repo is for the Braille Brains team, where we participated in the moonshot 
 
 ## How can you help change their life?
 
-Just vote for the project at the moonshot website.
+Just vote for the project at the [moonshot website.](https://moonshotpirates.com/moonshot/braille-brains/)
 
 # But, Hey!<br>
 
